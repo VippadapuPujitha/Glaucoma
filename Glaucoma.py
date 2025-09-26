@@ -12,7 +12,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # %%
-df = pd.read_csv("C:\\Users\\91949\\Desktop\\ml files\\glaucoma.csv")
+df = pd.read_csv("C:/Users/91949/Desktop/ml files/glaucoma.csv")
 
 # %%
 df.head()
@@ -170,6 +170,7 @@ import pickle
 with open('glaucoma_model.pkl', 'wb') as file:
     pickle.dump(glau_reg, file)
 print("Model saved as glaucoma_model.pkl")
+
 
 
 
